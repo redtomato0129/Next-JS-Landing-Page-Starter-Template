@@ -12,11 +12,6 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            GitHub
-          </Link>
-        </li>
-        <li>
           <Link href="/">Sign in</Link>
         </li>
       </NavbarTwoColumns>
@@ -32,7 +27,7 @@ const Hero = () => (
         }
         description="The easiest way to build a React landing page in seconds."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="https://superman921030-next-landing-template.vercel.app/category/nextjs/">
             <Button xl>Download Your Free Theme</Button>
           </Link>
         }
